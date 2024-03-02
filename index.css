@@ -1,0 +1,18 @@
+.beda {
+   background: #f1f3ff;
+}
+.biru {
+   background-color: #0d28a6; /* Change the background color to blue */
+   color: white; /* Change the text color to white for better contrast */
+   padding: 20px; /* Add padding for better spacing */
+   text-align: center; /* Center align text */
+   width: 100%; /* Set the width of the banner */
+   max-width: 1000px; /* Set maximum width */
+   height: 50%;
+}
+.kontainer {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh; /* Set the height of the container to 100% of the viewport height */
+}
