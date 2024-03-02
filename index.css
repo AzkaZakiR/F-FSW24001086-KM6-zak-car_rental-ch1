@@ -12,10 +12,11 @@
    border-radius: 15px;
 }
 .kontainer {
+   margin: 10em;
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh;
+   /* height: 90vh; */
 }
 .list-1 {
    list-style: none;
@@ -25,4 +26,29 @@
    margin-bottom: 16px;
    margin-right: 10px;
    display: flex; /* Ensure list items are displayed as flex items */
+}
+.carousel {
+   background-color: #f1f3ff;
+   color: black;
+   margin: 20px;
+   margin: auto;
+   width: 900px;
+   height: 400px;
+   border-radius: 15px;
+   align-items: center;
+}
+.karousel-top {
+   margin-top: 150px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+   /* Change color as before */
+   color: #520101;
+   /* Adjust background color (optional) */
+   background-color: rgba(100, 97, 100, 0.5); /* Example: Transparent black */
+   /* Adjust border (optional) */
+   border: 1px solid #fff; /* Example: White border */
+   /* Adjust size (optional) */
+   width: 40px; /* Example: Increase width */
+   height: 40px; /* Example: Increase height */
 }
