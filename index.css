@@ -1,18 +1,28 @@
-.beda {
+.top-content {
    background: #f1f3ff;
 }
 .biru {
-   background-color: #0d28a6; /* Change the background color to blue */
-   color: white; /* Change the text color to white for better contrast */
-   padding: 20px; /* Add padding for better spacing */
-   text-align: center; /* Center align text */
-   width: 100%; /* Set the width of the banner */
-   max-width: 1000px; /* Set maximum width */
-   height: 50%;
+   background-color: #0d28a6;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   width: 100%;
+   max-width: 1500px;
+   height: 40%;
+   border-radius: 15px;
 }
 .kontainer {
    display: flex;
    justify-content: center;
    align-items: center;
-   height: 100vh; /* Set the height of the container to 100% of the viewport height */
+   height: 100vh;
+}
+.list-1 {
+   list-style: none;
+}
+.listgroup {
+   /* margin: 16px; */
+   margin-bottom: 16px;
+   margin-right: 10px;
+   display: flex; /* Ensure list items are displayed as flex items */
 }
